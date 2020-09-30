@@ -1,4 +1,4 @@
-# Predicting Teenage Pregnancies in Charleston, SC and Baltimore, MD based on racial demography and household income 
+# Predicting Teenage Pregnancies in Charleston, SC and Baltimore, MD Based on Racial Demography and Household Income 
 ## Background 
 In my previous project, I noted what appeared to be an inverse relationship between household income and the teenage pregnancy rate in Charleston, SC and Baltimore, MD. However, I noted that the relationship between income and teenage pregnancy was less pronounced in Charleston; the lowest population tract by household income in Charleston had lower teenage birthrates than Baltimore's highest earning population tract. This discrepency led me to believe that other factors, like race, may affect the teenage pregnancy rates differently in both cities. With this information in mind, I hypothesized that race was a greater determinant of teenage pregnancy rates in Baltimore, due to its larger non-white population.
 
@@ -55,7 +55,7 @@ The fact that household income was significant and Baltimore but not Charleston 
 Based on my results, I propose that policy-makers focused on lowering teenage birthrates should develop plans based on a city's social context. While my limited dataset cannot be used to infer the prevalence of racism in Charleston, it does beg the question as to whether or not a higher degree of racism and, by consequence, more unequal access to healthcare or education along racial lines contributes more to teenage pregnancy rates within the city when compared to other parts of the country. Programs aimed at increasing household income in a more racially biased city or region may not be the most effective method of reducing teenage pregnancy.
 
 ## Error Analysis 
-As with my previous project, Charleston had fewer population tracts and thus fewer datasets to compare. Additionally, many population tracts in Charleston lacked information on income or teenage pregnancy. It is possible that a correlation between household income and teenage pregnancy in Charleston could have been more apparent if more information was provided. 
+As with my previous project, Charleston had fewer population tracts and thus fewer datasets to compare. Additionally, many population tracts in Charleston lacked information on income or teenage pregnancy. It is possible that a correlation between household income and teenage pregnancy in Charleston could have been more apparent if more information was provided. Furthermore, the R squared values for the linear regressions in both Baltimore and Charleston were fairly low. This means that it is difficult to accurately predict teenage pregnancy based on race and income, as one's race and income level can lead to a variety of different outcomes (though, given the variables' significance in Baltimore's case, we can generally conclude that having lower income and being non-white increase the likelihood of teenage pregnancy). 
 
 ## Step-By-Step Instructions
 
