@@ -19,13 +19,19 @@ I determined the teenage pregnancy rate, average household income, and fraction 
 
 The following table shows the correlation between the aforementioned variables in Charleston, SC:
 
+![alt_text](https://github.com/John-Frye/baltimore-charleston-regression-on-race-income-teen-pregnancy/blob/master/Charleston%20Correlation%20Screenshot.png)
+
 The following table shows the correlation between the aforementioned variables in Baltimore, MD:
+
+![alt_text](https://github.com/John-Frye/baltimore-charleston-regression-on-race-income-teen-pregnancy/blob/master/Baltimore%20Correlation%20Screenshot.png)
 
 In both cities, there is a negative correlation between household income and teenage pregancy rates and a positive correlation between fraction non-white and teenage pregnancy rates. This indicates that people from low-income, predominantly non-white communities tend to have higher teenage pregnancy rates in Baltimore and Charleston. However, it is important to note that Baltimore's correlation between income and teen pregnancy rates is higher than Charleston's, while Charleston's correlation between race and teen pregnancy is higher than Baltimore's. 
 
 With this correlation in mind, I performed a multiple linear regression model on the datasets from both cities.
 
 The following table shows the multiple linear regression for Charleston's dataset:
+
+![alt_text](https://github.com/John-Frye/baltimore-charleston-regression-on-race-income-teen-pregnancy/blob/master/Charleston%20Regression%20Screenshot.png)
 
 The R squared value for the Charleston linear regression is roughly 0.37. As the R squared value tells us the percentage of one variable's behavior that can be predicted by another variable, this lower value indicates that our ability to predict teenage pregnancy rates based on household income and fraction non-white isn't very strong. 
 
@@ -36,6 +42,8 @@ The coefficients for the x variables (Household Income and Fraction Non-White) a
 However, one should note that not all of the variables for Charleston's linear regression are significant due to the variable's P values. The P value tells us whether or not a dataset is significant, and thus whether or not we can use it to come to a conclusion about a variables' relevancy to the linear regression. A P value higher than 0.05 is considered insignificant, while a P value lower than 0.05 is considered significant. The P value for Household Income is insignificant because it is too high (at 0.4), while the much smaller P value for Fraction Non-White (0.006) is significant. Therefore, we can conclude that household income does not have a significant impact on teenage pregnancy rates in Charleston, despite its aforementioned correlation and coefficient. 
 
 The following table shows the multiple linear regression for Baltimore's dataset:
+
+![alt_text](https://github.com/John-Frye/baltimore-charleston-regression-on-race-income-teen-pregnancy/blob/master/Baltimore%20Regression%20Screenshot.png)
 
 The R squared value for Baltimore's linear regression is roughly 0.36, which means that our ability to predict teenage pregnancy rates based on household income and fraction non-white is also fairly weak.
 
