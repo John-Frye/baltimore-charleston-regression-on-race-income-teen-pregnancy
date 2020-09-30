@@ -33,9 +33,9 @@ The following table shows the multiple linear regression for Charleston's datase
 
 ![alt_text](https://github.com/John-Frye/baltimore-charleston-regression-on-race-income-teen-pregnancy/blob/master/Charleston%20Regression%20Screenshot.png)
 
-The R squared value for the Charleston linear regression is roughly 0.37. As the R squared value tells us the percentage of one variable's behavior that can be predicted by another variable, this lower value indicates that our ability to predict teenage pregnancy rates based on household income and fraction non-white isn't very strong. 
+The R squared value for the Charleston linear regression is roughly 0.37. As the R squared value tells us the percentage of one variable's behavior that can be predicted by another variable, this lower value indicates that our ability to predict teenage pregnancy rates based on household income and fraction non-white isn't very strong. We can only predict around 37% of the data. 
 
-The standard error for Charleston's linear regression is about 0.035. fdkjghjkdfhgjkdfhgkjdfhgkjfdhg
+The standard error for Charleston's linear regression is about 0.035. The standard error tells us how closely the data fits our least squared line, the trendline based on our dataset. In other words, it measures the spread of our data. As the linear regression measures teenage pregnancy rates, the standard error should be interpreted as a percentage, or 3.5%. This means that our range of datapoints generally falls within 3.5% of our trendline. 
 
 The coefficients for the x variables (Household Income and Fraction Non-White) are -2.056E-06 and 0.13 respectively. The fact that Household Income's coefficient is negative means that, as household income increases, it has a negative effect on the teenage birthrate (i.e. it lessens the teenage birthrate). Meanwhile, the coefficient for Fraction Non-White is positive, meaning that a higher percentage of non-white residents corresponds to a higher teenage pregnancy rate.
 
@@ -45,9 +45,7 @@ The following table shows the multiple linear regression for Baltimore's dataset
 
 ![alt_text](https://github.com/John-Frye/baltimore-charleston-regression-on-race-income-teen-pregnancy/blob/master/Baltimore%20Regression%20Screenshot.png)
 
-The R squared value for Baltimore's linear regression is roughly 0.36, which means that our ability to predict teenage pregnancy rates based on household income and fraction non-white is also fairly weak.
-
-The standard error dfkjghfdkjghkjdfhgjkdfhgjk.
+The R squared value for Baltimore's linear regression is roughly 0.36, which means that we can only predict around 36% of our data on teenage pregnancy rates based on household income and fraction non-white. The standard error of Baltimore's linear regression is 0.047, or 4.7% if adjusted for the same units as the teenage pregnancy rate.
 
 The coefficients for houshold income and fraction non-white in Baltimore are -1.18E-5 and 0.078 respectively, indicating that increasing household income has a negative effect on teenage pregnancy rates and fraction non-white has a positive effect on teenage pregnancy rates. 
 
