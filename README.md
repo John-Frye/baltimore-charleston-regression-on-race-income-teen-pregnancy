@@ -27,7 +27,11 @@ The following table shows the correlation between the aforementioned variables i
 
 In both cities, there is a negative correlation between household income and teenage pregancy rates and a positive correlation between fraction non-white and teenage pregnancy rates. This indicates that people from low-income, predominantly non-white communities tend to have higher teenage pregnancy rates in Baltimore and Charleston. However, it is important to note that Baltimore's correlation between income and teen pregnancy rates is higher than Charleston's, while Charleston's correlation between race and teen pregnancy is higher than Baltimore's. 
 
-With this correlation in mind, I performed a multiple linear regression model on the datasets from both cities.
+To illustrate this relationship, I have included a chart below comparing household income to teenage pregnancy rates in Baltimore. We can see that as household incomes increase, the teenage pregnancy rate generally decreases. 
+
+![alt_text](https://github.com/John-Frye/baltimore-charleston-regression-on-race-income-teen-pregnancy/blob/master/Baltimore_Income_Pregnancy_Chart_Pic.png)
+
+I then performed a multiple linear regression model on the datasets from both cities.
 
 The following table shows the multiple linear regression for Charleston's dataset:
 
