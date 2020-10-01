@@ -29,7 +29,7 @@ In both cities, there is a negative correlation between household income and tee
 
 To illustrate this relationship, I have included a chart below comparing household income to teenage pregnancy rates in Baltimore. We can see that as household incomes increase, the teenage pregnancy rate generally decreases. 
 
-![alt_text](https://github.com/John-Frye/baltimore-charleston-regression-on-race-income-teen-pregnancy/blob/master/Baltimore_Income_Pregnancy_Chart_Pic.png)
+![alt_text](https://github.com/John-Frye/baltimore-charleston-regression-on-race-income-teen-pregnancy/blob/master/Pic_Baltimore_Income_Pregnancy_Chart.png)
 
 I then performed a multiple linear regression model on the datasets from both cities.
 
